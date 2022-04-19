@@ -1,0 +1,66 @@
+.panel{
+    flex: 6;
+    margin: 40px;
+    padding: 50px 0 0 90px;
+    height: 550px;
+    background: #fff;
+    border-radius: 20px 0 0 20px;
+}
+.panelItems{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.panelItem{
+    margin-right: 30px;
+    padding: 2px 10px 2px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.active{
+    background: #2de473;
+    color: #fff;
+}
+.penelCover{
+    display: flex;
+    margin-top: 20px;
+}
+.panelCoverImg{
+    width: 370px;
+    height: 220px;
+    border-radius: 7px; 
+}
+.wigetItemCoverImg{
+    width: 370px;
+    height: 220px;
+    object-fit: cover;
+    border-radius:7px;
+}
+.panelCoverDesc{
+    width: 300px;
+    margin-left: 20px;
+}
+.panelCoverDescTitle{
+
+}
+.panelcoverDescTip{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #474747;
+}
+.panelCoverDescButton{
+    margin-top: 15px;
+}
+.greenBtn{
+    width: 100px;
+    background: #2de473;
+    cursor: pointer;
+    padding: 2px 10px 2px 10px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+}

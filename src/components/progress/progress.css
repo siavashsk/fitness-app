@@ -1,0 +1,96 @@
+.progress{
+    flex: 3;
+    background-color: #fff;   
+    margin: 40px 40px 0 0;
+    height: 600px;
+    background: #fff;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.progressWrapper{
+    padding: 30px;
+    width: 210px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.progressUser{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.progressUserTitle{
+    color: #6c6c6c;
+}
+.progressUserImg{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.progressDesc{
+}
+.progressDescTitle{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.progressDescp{
+    color: #6c6c6c;
+    margin-bottom: 20px;
+}
+.arrow{
+    font-size: 30px;
+    color: #22d157;
+}
+.progressBoxTitle{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.progressBars{
+    width: 100%;
+    height: 50px;
+}
+.progressItem{
+
+}
+.progressInfo{
+    display: flex;
+    justify-content:space-between;
+
+}
+.progressBar{
+    width: 100%;
+    height: 20px;
+    background: #b8b8b8;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.barOne{
+    width: 80%;
+    height: 20px;
+    border-radius: 15px;
+    background: #00dcdc;
+}
+.blue{
+    background-color: #3498db;
+}
+.green{
+    background-color: #22d157;
+}
+.title1{
+    color: #00dcdc;
+    font-weight: bold;
+}
+.title2{
+    color: #3498db;
+    font-weight: bold;
+}
+.title3{
+    color: #22d157;
+    font-weight: bold;
+}
